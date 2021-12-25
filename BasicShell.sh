@@ -28,6 +28,3 @@
 # BIRTHDAY=`date -d "$BIRTHDATE" +%A`
 # echo Birthday is ${BIRTHDAY}
 
-git remote add origin https://github.com/JitkasemC/LearnJS.git
-git branch -M main
-git push -u origin main
