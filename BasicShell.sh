@@ -28,3 +28,14 @@
 # BIRTHDAY=`date -d "$BIRTHDATE" +%A`
 # echo Birthday is ${BIRTHDAY}
 
+# Run this code in command line (passing arguments when executing the script)
+# sh BasicShell.sh apple 68 banana 20
+# It means argument1 or $1 is apple
+# argument2 or $2 is 68
+# total arguments or length of argument or $# is 4
+# list of all arguments or $@ is  apple 68 banana 20
+echo $2 
+FRUIT=$1
+echo "An $FRUIT costs just $2"
+echo "Total argument is $#"
+echo "All arguments are $@"
